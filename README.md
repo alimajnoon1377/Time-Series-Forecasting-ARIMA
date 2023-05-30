@@ -55,7 +55,7 @@ To run the code in this repository, you need to set up a Python environment and 
 
 ## Examples
 
-#Stock Price Prediction
+# Stock Price Prediction
 The notebooks/stock_price_prediction.ipynb notebook demonstrates how to use the ARIMA model for stock price prediction.
 
 1. Ensure that you have the stock price dataset in the data/ folder. Modify the notebook to use your own dataset or provide the required file format and column names.
