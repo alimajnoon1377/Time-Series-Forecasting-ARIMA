@@ -41,7 +41,7 @@ This repository provides an implementation of the Autoregressive Integrated Movi
 
 6. Experiment with different parameters, try different datasets, or modify the code to further explore ARIMA forecasting.
 
-##Installation
+## Installation
 To run the code in this repository, you need to set up a Python environment and install the required dependencies.
 
 1. Create and activate a new Python virtual environment (optional but recommended):
@@ -53,7 +53,7 @@ To run the code in this repository, you need to set up a Python environment and 
    ```bash
    pip install -r requirements.txt
 
-##Examples
+## Examples
 
 #Stock Price Prediction
 The notebooks/stock_price_prediction.ipynb notebook demonstrates how to use the ARIMA model for stock price prediction.
@@ -61,16 +61,16 @@ The notebooks/stock_price_prediction.ipynb notebook demonstrates how to use the 
 1. Ensure that you have the stock price dataset in the data/ folder. Modify the notebook to use your own dataset or provide the required file format and column names.
 2. Follow the instructions in the notebook to preprocess the data, train the ARIMA model, and visualize the forecasted stock prices.
 
-#Energy Consumption Forecasting
+# Energy Consumption Forecasting
 The notebooks/energy_consumption_forecasting.ipynb notebook demonstrates how to use the ARIMA model for energy consumption forecasting.
 
 1. Ensure that you have the energy consumption dataset in the data/ folder. Modify the notebook to use your own dataset or provide the required file format and column names.
 2. Follow the instructions in the notebook to preprocess the data, train the ARIMA model, and visualize the forecasted energy consumption.
 
-##Contributing
+## Contributing
 Contributions to this repository are welcome. If you find any issues or want to propose improvements, please open an issue or submit a pull request. Feel free to add new examples, improve documentation, or suggest alternative implementations.
 
-##License
+## License
 This repository is licensed under the MIT License.
 
    ```bash
