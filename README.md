@@ -28,52 +28,53 @@ This repository provides an implementation of the Autoregressive Integrated Movi
    git clone https://github.com/alimajnoon1377/Time-Series-Forecasting-ARIMA.git
    
    
-Set up a Python environment and install the necessary dependencies:
-cd Time-Series-Forecasting-ARIMA
-pip install -r requirements.txt
-Open the Jupyter notebooks in the notebooks/ folder using Jupyter Notebook or JupyterLab.
+2. Set up a Python environment and install the necessary dependencies:
+   ```bash
+   cd Time-Series-Forecasting-ARIMA
+    pip install -r requirements.txt
+    
+3. Open the Jupyter notebooks in the notebooks/ folder using Jupyter Notebook or JupyterLab.
 
-Follow the step-by-step instructions in each notebook (stock_price_prediction.ipynb and energy_consumption_forecasting.ipynb) to understand the ARIMA implementation for stock price prediction and energy consumption forecasting.
+4. Follow the step-by-step instructions in each notebook (stock_price_prediction.ipynb and energy_consumption_forecasting.ipynb) to understand the ARIMA implementation for stock price prediction and energy consumption forecasting.
 
-Run the code cells to execute the model training, forecasting, and visualization.
+5. Run the code cells to execute the model training, forecasting, and visualization.
 
-Experiment with different parameters, try different datasets, or modify the code to further explore ARIMA forecasting.
+6. Experiment with different parameters, try different datasets, or modify the code to further explore ARIMA forecasting.
 
-Installation
+##Installation
 To run the code in this repository, you need to set up a Python environment and install the required dependencies.
 
-Create and activate a new Python virtual environment (optional but recommended):
-python -m venv venv
-source venv/bin/activate
+1. Create and activate a new Python virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
 
-Install the required packages using pip:
+2. Install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
 
+##Examples
 
-pip install -r requirements.txt
-
-Examples
-Stock Price Prediction
+#Stock Price Prediction
 The notebooks/stock_price_prediction.ipynb notebook demonstrates how to use the ARIMA model for stock price prediction.
 
-Ensure that you have the stock price dataset in the data/ folder. Modify the notebook to use your own dataset or provide the required file format and column names.
+1. Ensure that you have the stock price dataset in the data/ folder. Modify the notebook to use your own dataset or provide the required file format and column names.
+2. Follow the instructions in the notebook to preprocess the data, train the ARIMA model, and visualize the forecasted stock prices.
 
-Follow the instructions in the notebook to preprocess the data, train the ARIMA model, and visualize the forecasted stock prices.
-
-Energy Consumption Forecasting
+#Energy Consumption Forecasting
 The notebooks/energy_consumption_forecasting.ipynb notebook demonstrates how to use the ARIMA model for energy consumption forecasting.
 
-Ensure that you have the energy consumption dataset in the data/ folder. Modify the notebook to use your own dataset or provide the required file format and column names.
+1. Ensure that you have the energy consumption dataset in the data/ folder. Modify the notebook to use your own dataset or provide the required file format and column names.
+2. Follow the instructions in the notebook to preprocess the data, train the ARIMA model, and visualize the forecasted energy consumption.
 
-Follow the instructions in the notebook to preprocess the data, train the ARIMA model, and visualize the forecasted energy consumption.
-
-Contributing
+##Contributing
 Contributions to this repository are welcome. If you find any issues or want to propose improvements, please open an issue or submit a pull request. Feel free to add new examples, improve documentation, or suggest alternative implementations.
 
-License
+##License
 This repository is licensed under the MIT License.
 
-
-Make sure to update the placeholders like `alimajnoon1377` with your actual GitHub username, and provide appropriate links to the license file and any relevant resources in your repository.
+   ```bash
+   Make sure to update the placeholders like `alimajnoon1377` with your actual GitHub username, and provide appropriate links to the license file and any relevant resources in your repository.
 
 
 
